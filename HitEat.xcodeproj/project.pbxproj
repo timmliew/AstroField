@@ -7,8 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D8115B061D2D7E5F000A418D /* Obstacles2.sks in Resources */ = {isa = PBXBuildFile; fileRef = D8115B051D2D7E5F000A418D /* Obstacles2.sks */; };
+		D8115B081D2D85CC000A418D /* Damages.sks in Resources */ = {isa = PBXBuildFile; fileRef = D8115B071D2D85CC000A418D /* Damages.sks */; };
+		D8115B0A1D2D8797000A418D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8115B091D2D8797000A418D /* AudioToolbox.framework */; };
+		D8115B201D2DA932000A418D /* MSButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8115B111D2DA932000A418D /* MSButtonNode.swift */; };
+		D8115B211D2DA932000A418D /* MSReferenceNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8115B121D2DA932000A418D /* MSReferenceNode.swift */; };
+		D8115B221D2DA932000A418D /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8115B141D2DA932000A418D /* CGFloat+Extensions.swift */; };
+		D8115B231D2DA932000A418D /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8115B151D2DA932000A418D /* CGPoint+Extensions.swift */; };
+		D8115B241D2DA932000A418D /* CGVector+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8115B161D2DA932000A418D /* CGVector+Extensions.swift */; };
+		D8115B251D2DA932000A418D /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8115B171D2DA932000A418D /* Int+Extensions.swift */; };
+		D8115B261D2DA932000A418D /* SKAction+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8115B181D2DA932000A418D /* SKAction+Extensions.swift */; };
+		D8115B271D2DA932000A418D /* SKAction+SpecialEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8115B191D2DA932000A418D /* SKAction+SpecialEffects.swift */; };
+		D8115B281D2DA932000A418D /* SKColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8115B1A1D2DA932000A418D /* SKColor+Extensions.swift */; };
+		D8115B291D2DA932000A418D /* SKNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8115B1B1D2DA932000A418D /* SKNode+Extensions.swift */; };
+		D8115B2A1D2DA932000A418D /* SKTAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8115B1C1D2DA932000A418D /* SKTAudio.swift */; };
+		D8115B2B1D2DA932000A418D /* SKTEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8115B1D1D2DA932000A418D /* SKTEffects.swift */; };
+		D8115B2C1D2DA932000A418D /* SKTTimingFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8115B1E1D2DA932000A418D /* SKTTimingFunctions.swift */; };
+		D8115B2D1D2DA932000A418D /* Vector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8115B1F1D2DA932000A418D /* Vector3.swift */; };
+		D8115B351D2E98CB000A418D /* Obstacles3.sks in Resources */ = {isa = PBXBuildFile; fileRef = D8115B341D2E98CB000A418D /* Obstacles3.sks */; };
+		D8115B371D2E9D6C000A418D /* sfx_laserlaser.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D8115B361D2E9D6C000A418D /* sfx_laserlaser.mp3 */; };
+		D8115B391D2E9F3A000A418D /* MainScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D8115B381D2E9F3A000A418D /* MainScene.sks */; };
+		D8115B3B1D2EA793000A418D /* MainScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8115B3A1D2EA793000A418D /* MainScene.swift */; };
+		D817291B1D2D4CAB00A37212 /* Obstacles.sks in Resources */ = {isa = PBXBuildFile; fileRef = D817291A1D2D4CAB00A37212 /* Obstacles.sks */; };
+		D817291D1D2D4E2F00A37212 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D817291C1D2D4E2F00A37212 /* GameScene.sks */; };
+		D87627AC1D2FFCB800CAA781 /* sfx_powerUp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D87627AB1D2FFCB800CAA781 /* sfx_powerUp.mp3 */; };
+		D87627AE1D2FFCEE00CAA781 /* sfx_laserUp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D87627AD1D2FFCEE00CAA781 /* sfx_laserUp.mp3 */; };
+		D8C674A51D2EC6C8001E5295 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = D8C674A31D2EC6C8001E5295 /* spark.png */; };
+		D8C674A71D2EC7A0001E5295 /* CrashExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = D8C674A61D2EC7A0001E5295 /* CrashExplosion.sks */; };
 		D8DA68001D2BF1D0002EDECB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DA67FF1D2BF1D0002EDECB /* AppDelegate.swift */; };
-		D8DA68021D2BF1D0002EDECB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D8DA68011D2BF1D0002EDECB /* GameScene.sks */; };
 		D8DA68041D2BF1D0002EDECB /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DA68031D2BF1D0002EDECB /* GameScene.swift */; };
 		D8DA68061D2BF1D0002EDECB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DA68051D2BF1D0002EDECB /* GameViewController.swift */; };
 		D8DA68091D2BF1D0002EDECB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8DA68071D2BF1D0002EDECB /* Main.storyboard */; };
@@ -16,6 +42,7 @@
 		D8DA680E1D2BF1D0002EDECB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8DA680C1D2BF1D0002EDECB /* LaunchScreen.storyboard */; };
 		D8DA68191D2BF1D1002EDECB /* HitEatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DA68181D2BF1D1002EDECB /* HitEatTests.swift */; };
 		D8DA68241D2BF1D1002EDECB /* HitEatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DA68231D2BF1D1002EDECB /* HitEatUITests.swift */; };
+		D8ED4DE81D2F35ED001E216D /* Bullets.sks in Resources */ = {isa = PBXBuildFile; fileRef = D8ED4DE71D2F35ED001E216D /* Bullets.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +63,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D8115B051D2D7E5F000A418D /* Obstacles2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Obstacles2.sks; sourceTree = "<group>"; };
+		D8115B071D2D85CC000A418D /* Damages.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Damages.sks; sourceTree = "<group>"; };
+		D8115B091D2D8797000A418D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AudioToolbox.framework; sourceTree = "<group>"; };
+		D8115B111D2DA932000A418D /* MSButtonNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSButtonNode.swift; sourceTree = "<group>"; };
+		D8115B121D2DA932000A418D /* MSReferenceNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSReferenceNode.swift; sourceTree = "<group>"; };
+		D8115B141D2DA932000A418D /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
+		D8115B151D2DA932000A418D /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
+		D8115B161D2DA932000A418D /* CGVector+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGVector+Extensions.swift"; sourceTree = "<group>"; };
+		D8115B171D2DA932000A418D /* Int+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
+		D8115B181D2DA932000A418D /* SKAction+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKAction+Extensions.swift"; sourceTree = "<group>"; };
+		D8115B191D2DA932000A418D /* SKAction+SpecialEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKAction+SpecialEffects.swift"; sourceTree = "<group>"; };
+		D8115B1A1D2DA932000A418D /* SKColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKColor+Extensions.swift"; sourceTree = "<group>"; };
+		D8115B1B1D2DA932000A418D /* SKNode+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKNode+Extensions.swift"; sourceTree = "<group>"; };
+		D8115B1C1D2DA932000A418D /* SKTAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTAudio.swift; sourceTree = "<group>"; };
+		D8115B1D1D2DA932000A418D /* SKTEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTEffects.swift; sourceTree = "<group>"; };
+		D8115B1E1D2DA932000A418D /* SKTTimingFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTTimingFunctions.swift; sourceTree = "<group>"; };
+		D8115B1F1D2DA932000A418D /* Vector3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector3.swift; sourceTree = "<group>"; };
+		D8115B341D2E98CB000A418D /* Obstacles3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Obstacles3.sks; sourceTree = "<group>"; };
+		D8115B361D2E9D6C000A418D /* sfx_laserlaser.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sfx_laserlaser.mp3; sourceTree = "<group>"; };
+		D8115B381D2E9F3A000A418D /* MainScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainScene.sks; sourceTree = "<group>"; };
+		D8115B3A1D2EA793000A418D /* MainScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScene.swift; sourceTree = "<group>"; };
+		D817291A1D2D4CAB00A37212 /* Obstacles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Obstacles.sks; sourceTree = "<group>"; };
+		D817291C1D2D4E2F00A37212 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		D87627AB1D2FFCB800CAA781 /* sfx_powerUp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sfx_powerUp.mp3; sourceTree = "<group>"; };
+		D87627AD1D2FFCEE00CAA781 /* sfx_laserUp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sfx_laserUp.mp3; sourceTree = "<group>"; };
+		D8C674A31D2EC6C8001E5295 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		D8C674A61D2EC7A0001E5295 /* CrashExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CrashExplosion.sks; sourceTree = "<group>"; };
 		D8DA67FC1D2BF1D0002EDECB /* HitEat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HitEat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8DA67FF1D2BF1D0002EDECB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D8DA68011D2BF1D0002EDECB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		D8DA68031D2BF1D0002EDECB /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		D8DA68051D2BF1D0002EDECB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		D8DA68081D2BF1D0002EDECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +104,7 @@
 		D8DA681F1D2BF1D1002EDECB /* HitEatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HitEatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8DA68231D2BF1D1002EDECB /* HitEatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitEatUITests.swift; sourceTree = "<group>"; };
 		D8DA68251D2BF1D1002EDECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8ED4DE71D2F35ED001E216D /* Bullets.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Bullets.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8115B0A1D2D8797000A418D /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +133,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D8115B0D1D2D9F1F000A418D /* SFX */ = {
+			isa = PBXGroup;
+			children = (
+				D8115B361D2E9D6C000A418D /* sfx_laserlaser.mp3 */,
+				D87627AB1D2FFCB800CAA781 /* sfx_powerUp.mp3 */,
+				D87627AD1D2FFCEE00CAA781 /* sfx_laserUp.mp3 */,
+			);
+			name = SFX;
+			path = HitEat;
+			sourceTree = "<group>";
+		};
+		D8115B101D2DA932000A418D /* Utils 2 */ = {
+			isa = PBXGroup;
+			children = (
+				D8115B111D2DA932000A418D /* MSButtonNode.swift */,
+				D8115B121D2DA932000A418D /* MSReferenceNode.swift */,
+				D8115B131D2DA932000A418D /* SKTUtils */,
+			);
+			path = "Utils 2";
+			sourceTree = "<group>";
+		};
+		D8115B131D2DA932000A418D /* SKTUtils */ = {
+			isa = PBXGroup;
+			children = (
+				D8115B141D2DA932000A418D /* CGFloat+Extensions.swift */,
+				D8115B151D2DA932000A418D /* CGPoint+Extensions.swift */,
+				D8115B161D2DA932000A418D /* CGVector+Extensions.swift */,
+				D8115B171D2DA932000A418D /* Int+Extensions.swift */,
+				D8115B181D2DA932000A418D /* SKAction+Extensions.swift */,
+				D8115B191D2DA932000A418D /* SKAction+SpecialEffects.swift */,
+				D8115B1A1D2DA932000A418D /* SKColor+Extensions.swift */,
+				D8115B1B1D2DA932000A418D /* SKNode+Extensions.swift */,
+				D8115B1C1D2DA932000A418D /* SKTAudio.swift */,
+				D8115B1D1D2DA932000A418D /* SKTEffects.swift */,
+				D8115B1E1D2DA932000A418D /* SKTTimingFunctions.swift */,
+				D8115B1F1D2DA932000A418D /* Vector3.swift */,
+			);
+			path = SKTUtils;
+			sourceTree = "<group>";
+		};
 		D8DA67F31D2BF1D0002EDECB = {
 			isa = PBXGroup;
 			children = (
+				D8115B091D2D8797000A418D /* AudioToolbox.framework */,
 				D8DA67FE1D2BF1D0002EDECB /* HitEat */,
 				D8DA68171D2BF1D1002EDECB /* HitEatTests */,
 				D8DA68221D2BF1D1002EDECB /* HitEatUITests */,
 				D8DA67FD1D2BF1D0002EDECB /* Products */,
+				D8115B0D1D2D9F1F000A418D /* SFX */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +198,24 @@
 		D8DA67FE1D2BF1D0002EDECB /* HitEat */ = {
 			isa = PBXGroup;
 			children = (
+				D8C674A31D2EC6C8001E5295 /* spark.png */,
+				D8C674A61D2EC7A0001E5295 /* CrashExplosion.sks */,
 				D8DA67FF1D2BF1D0002EDECB /* AppDelegate.swift */,
-				D8DA68011D2BF1D0002EDECB /* GameScene.sks */,
+				D8115B381D2E9F3A000A418D /* MainScene.sks */,
+				D8115B3A1D2EA793000A418D /* MainScene.swift */,
+				D817291C1D2D4E2F00A37212 /* GameScene.sks */,
 				D8DA68031D2BF1D0002EDECB /* GameScene.swift */,
+				D8ED4DE71D2F35ED001E216D /* Bullets.sks */,
+				D8115B071D2D85CC000A418D /* Damages.sks */,
+				D8115B341D2E98CB000A418D /* Obstacles3.sks */,
+				D8115B051D2D7E5F000A418D /* Obstacles2.sks */,
+				D817291A1D2D4CAB00A37212 /* Obstacles.sks */,
 				D8DA68051D2BF1D0002EDECB /* GameViewController.swift */,
 				D8DA68071D2BF1D0002EDECB /* Main.storyboard */,
 				D8DA680A1D2BF1D0002EDECB /* Assets.xcassets */,
 				D8DA680C1D2BF1D0002EDECB /* LaunchScreen.storyboard */,
 				D8DA680F1D2BF1D0002EDECB /* Info.plist */,
+				D8115B101D2DA932000A418D /* Utils 2 */,
 			);
 			path = HitEat;
 			sourceTree = "<group>";
@@ -238,10 +345,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8DA68021D2BF1D0002EDECB /* GameScene.sks in Resources */,
+				D8C674A51D2EC6C8001E5295 /* spark.png in Resources */,
+				D817291B1D2D4CAB00A37212 /* Obstacles.sks in Resources */,
+				D817291D1D2D4E2F00A37212 /* GameScene.sks in Resources */,
+				D8115B371D2E9D6C000A418D /* sfx_laserlaser.mp3 in Resources */,
+				D87627AE1D2FFCEE00CAA781 /* sfx_laserUp.mp3 in Resources */,
+				D8115B351D2E98CB000A418D /* Obstacles3.sks in Resources */,
 				D8DA680E1D2BF1D0002EDECB /* LaunchScreen.storyboard in Resources */,
 				D8DA680B1D2BF1D0002EDECB /* Assets.xcassets in Resources */,
+				D8C674A71D2EC7A0001E5295 /* CrashExplosion.sks in Resources */,
+				D8ED4DE81D2F35ED001E216D /* Bullets.sks in Resources */,
+				D87627AC1D2FFCB800CAA781 /* sfx_powerUp.mp3 in Resources */,
 				D8DA68091D2BF1D0002EDECB /* Main.storyboard in Resources */,
+				D8115B391D2E9F3A000A418D /* MainScene.sks in Resources */,
+				D8115B081D2D85CC000A418D /* Damages.sks in Resources */,
+				D8115B061D2D7E5F000A418D /* Obstacles2.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,8 +385,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8DA68041D2BF1D0002EDECB /* GameScene.swift in Sources */,
+				D8115B2C1D2DA932000A418D /* SKTTimingFunctions.swift in Sources */,
 				D8DA68061D2BF1D0002EDECB /* GameViewController.swift in Sources */,
+				D8115B241D2DA932000A418D /* CGVector+Extensions.swift in Sources */,
+				D8115B231D2DA932000A418D /* CGPoint+Extensions.swift in Sources */,
+				D8115B221D2DA932000A418D /* CGFloat+Extensions.swift in Sources */,
+				D8115B2A1D2DA932000A418D /* SKTAudio.swift in Sources */,
 				D8DA68001D2BF1D0002EDECB /* AppDelegate.swift in Sources */,
+				D8115B291D2DA932000A418D /* SKNode+Extensions.swift in Sources */,
+				D8115B261D2DA932000A418D /* SKAction+Extensions.swift in Sources */,
+				D8115B271D2DA932000A418D /* SKAction+SpecialEffects.swift in Sources */,
+				D8115B201D2DA932000A418D /* MSButtonNode.swift in Sources */,
+				D8115B211D2DA932000A418D /* MSReferenceNode.swift in Sources */,
+				D8115B2B1D2DA932000A418D /* SKTEffects.swift in Sources */,
+				D8115B251D2DA932000A418D /* Int+Extensions.swift in Sources */,
+				D8115B3B1D2EA793000A418D /* MainScene.swift in Sources */,
+				D8115B2D1D2DA932000A418D /* Vector3.swift in Sources */,
+				D8115B281D2DA932000A418D /* SKColor+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +545,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = HitEat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tim.hiteat.HitEat;
@@ -423,6 +560,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = HitEat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tim.hiteat.HitEat;
@@ -497,6 +638,7 @@
 				D8DA682A1D2BF1D1002EDECB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8DA682B1D2BF1D1002EDECB /* Build configuration list for PBXNativeTarget "HitEatTests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +647,7 @@
 				D8DA682D1D2BF1D1002EDECB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8DA682E1D2BF1D1002EDECB /* Build configuration list for PBXNativeTarget "HitEatUITests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +656,7 @@
 				D8DA68301D2BF1D1002EDECB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
